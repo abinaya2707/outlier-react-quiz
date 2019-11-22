@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.blackButton {
+  background-color: black;
+  width: 30%;
+  padding-top: 0px;
+}
+
+.whiteButton {
+  background-color: white;
+  width: 30%;
+  padding-top: 0px;
+}
+
+.correctAnswer {
+  width: 30%;
+  padding-top: 0px;
+  background-color: black!important;
+  opacity: 1;
+  color: #ffffff;
+}
+
+
+.correctAnswer:disabled {
+  width: 30%;
+  padding-top: 0px;
+  background-color: black!important;
+  opacity: 1;
+  color: #ffffff;
+}
+
+.inCorrectAnswer {
+  background-color: #dad9d9 !important;
+  width: 30%;
+   padding-top: 0px;
+}
+
+.quizBox {
+  width: 35%;
+  border-style: groove;
+  height: auto;
+  color: black;
+}
+
+.congrats-text{
+  margin-top: 50%;
+}
+.quizBoxTitle{
+  margin-right: 38%;
+}
+
+
+.quizBoxTitleText{
+  margin-bottom: -10px;
+  margin-left: 9%;
+}
+
+.quizBoxSubTitleText{
+  font-size: 10px;
+  margin-right: 3%;
+
+}
+
+.titleRating{
+  margin-right: 30%;
+}
+
+.questionText{
+  padding: 5%;
+  margin-left: 7%;
+  text-align: initial;
+}
+.white{
+  color: #ffffff;
+}
+
+.nextQuestion{
+  width: 30%;
+  padding-top: 0px;
+}
+
+.score{
+  margin-right: 58%;
+}
+
+.maxScore{
+  margin-left: 48%;
+  margin-top: -5%;
+}
+
+.progressBar{
+  margin-left: 12%;
+  margin-right: 15%;
+}
+
+@media only screen and (max-width: 768px) {
+  .quizBox{
+    width: 100%;
+  }
+} 
